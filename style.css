@@ -1,0 +1,217 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: aquamarine */
+}
+
+body {
+    margin: 0 auto;
+    padding: 87px 120px 100px;
+}
+
+.navigetion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navigetion div li {
+    list-style: none;
+
+}
+
+.navigetion div a {
+    text-decoration: none;
+
+}
+
+.navigetions ul {
+    display: flex;
+    gap: 34px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+main {
+    width: 100%;
+}
+
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+
+}
+
+.section-info {
+    width: 582px;
+    height: 270px;
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 52px;
+    margin: 0;
+}
+
+.section-description {
+    font-size: 16px;
+    margin: 16px 0 16px;
+}
+
+.section-one-img {
+    width: 440px;
+    height: 414px;
+
+}
+
+#one {
+    padding-top: 20px;
+    position: absolute;
+}
+
+
+.btn {
+    background-color: #E02C6D;
+    border-radius: 41px;
+    color: #FFFFFF;
+    font-weight: 700;
+    width: 196px;
+    height: 44px;
+    border: none;
+}
+
+.section-two {
+    height: 110px;
+    padding: 0 100px;
+    margin: 100px 0;
+
+}
+
+hr {
+    border-color: #AAAAAA;
+    opacity: 20%;
+}
+
+
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.logos li {
+    display: flex;
+    list-style: none;
+    row-gap: auto;
+    justify-content: center;
+    margin: 60px 0;
+    width: 100%;
+
+
+}
+
+.section-three {
+    margin: 150px 0;
+}
+
+.section-three-title {
+    text-align: center;
+    border-top: 100px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 20%;
+    justify-content: center
+}
+
+.item-info {
+    width: 300px;
+    height: 476px;
+    padding: 17px 15px;
+    margin: 15px 15px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+}
+
+.section-three .buttom-btn {
+    text-align: right;
+    order: none;
+    padding-right: 50px;
+
+}
+
+.btn-two {
+    background-color: transparent;
+    color: #E02C6D;
+    font-weight: 700;
+    width: 196px;
+    height: 44px;
+    border: none;
+    padding-right: 50px;
+}
+
+.section-four {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title-four {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.btn-four {
+    background-color: #E02C6D;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    width: 196px;
+    height: 44px;
+    border: none;
+    padding-right: 50px;
+}
+
+.footer {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footer-info {
+    text-align: center;
+    color: #ffffff;
+   
+
+}
+
+.footer-title-four {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+.footer-description {
+    padding-top: 3px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+
+}
